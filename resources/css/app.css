@@ -1,0 +1,40 @@
+* {
+    color: blue;
+}
+.card-header {
+    background-color: rgba(34, 3, 5, 0.95) !important;
+    color: white !important;
+}
+.card-header * {
+    color: white !important;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgreen;
+    color: rgb(245, 14, 14);
+    font-weight: bold;
+}
+th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+a.btn {
+    padding: 5px 15px;
+    display: inline;
+    background-color: green;
+    color: white;
+}
+a.btn:hover {
+    color: black;
+    background-color: lightgreen;
+}
+.inline {
+    display: inline-block;
+}
+.MuiFormControl-root, .MuiAutocomplete-root {
+    width: 100%;
+    display: inline-block;
+}
